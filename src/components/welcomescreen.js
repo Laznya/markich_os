@@ -1,4 +1,4 @@
-class Welcomescreen {
+export default class Welcomescreen {
   static appear(time) {
     $('.welcomescreen').fadeIn(time);
   }

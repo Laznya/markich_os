@@ -1,4 +1,8 @@
-$(document).ready(() => {
+import ViewHelper from './viewHelper';
+import Welcomescreen from './components/welcomescreen';
+import Desktop from './components/desktop';
+
+const main = (() => {
   console.log('Markich OS is running');
 
   ViewHelper.init();
@@ -16,6 +20,4 @@ $(document).ready(() => {
       Desktop.load();
     }
   });
-
-  window.todoApp = new Todo({});
-});
+})();

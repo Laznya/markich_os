@@ -1,4 +1,7 @@
-class Desktop {
+import Topmenu from '../components/topmenu';
+import Bottompanel from '../components/bottompanel';
+
+export default class Desktop {
   static load() {
     $(window).resize(Desktop.fitToScreen);
     $('.desktop-group').show(800);

@@ -1,4 +1,4 @@
-class Bottompanel {
+export default class Bottompanel {
   static init() {
     $('.bottompanel').show();
     Bottompanel.centrelized();

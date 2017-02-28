@@ -2,7 +2,7 @@
   "name": "markich_os",
   "version": "1.0.0",
   "description": "b-day gift",
-  "main": "index.js",
+  "main": "webpack.config.js",
   "scripts": {
     "test": "test",
     "start": "node os.js"
@@ -22,6 +22,15 @@
   },
   "homepage": "https://github.com/DuduOP/markich_os#readme",
   "dependencies": {
-    "express": "^4.14.1"
+    "express": "^4.14.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.23.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "webpack": "^2.2.1"
   }
 }

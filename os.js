@@ -4,6 +4,7 @@ const os = express();
 
 os.use('/src', express.static(path.resolve(__dirname, 'src')));
 os.use('/modules', express.static(path.resolve(__dirname, 'node_modules')));
+os.use('/dist', express.static(path.resolve(__dirname, 'dist')));
 
 os.get('/', (req, res) => {
   res.sendFile(path.resolve(__dirname, 'index.html'));

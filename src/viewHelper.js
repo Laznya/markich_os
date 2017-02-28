@@ -1,4 +1,4 @@
-class ViewHelper {
+export default class ViewHelper {
   static init() {
     console.log('--- Helpers were loaded');
   }
@@ -29,5 +29,9 @@ class ViewHelper {
 
   static validatePath(path) {
     return '/src/' + path + '.html';
+  }
+
+  static hForeach() {
+
   }
 }

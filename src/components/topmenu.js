@@ -1,14 +1,10 @@
-class Topmenu {
+export default class Topmenu {
   static init(menuObj) {
     if (!menuObj)
       this.defaults = {
         file: {
           name: "File",
-          sub: ["New window", "Close", "Exit"]
-        },
-        edit: {
-          name: "Edit",
-          sub: ["Paste", "Copy", "Cut"]
+          sub: ["App Corner", "Exit"]
         },
         help: {
           name: "Help",

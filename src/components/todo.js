@@ -1,4 +1,6 @@
-class Todo extends App {
+import App from '/src/entities/app';
+
+export default class Todo extends App {
   constructor(menuScheme) {
     super(menuScheme);
     this.name = 'Todo List';
